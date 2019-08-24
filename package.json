@@ -1,7 +1,7 @@
 {
-  "name": "electron-react-parcel-boilerplate",
+  "name": "winamp-electron-app",
   "version": "0.7.7",
-  "description": "A boilerplate for Electron + React + Parcel.",
+  "description": "Mp3 player",
   "main": "app/main/.parcel/main.js",
   "scripts": {
     "start": "run-s main:build watch",
@@ -19,7 +19,14 @@
     "test:jest": "jest",
     "lint": "tslint app/**/*.ts{,x}"
   },
-  "author": "shamofu",
+  "author": {
+    "name": "patrykho",
+    "url": "https://github.com/patrykho/electron-react-parcel-boilerplate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamofu/electron-react-parcel-boilerplate"
+  },
   "license": "MIT",
   "build": {
     "productName": "ElectronReactParcel",
